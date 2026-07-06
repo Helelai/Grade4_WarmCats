@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cd5df31-507d-46b7-9394-a0cbf54f6e13">
+  <producedTypes>
+    <selectionType typeId="87c9d6a3-3225-4509-a41f-af3e69da6269" valueTypeId="7114b066-de90-494d-8a2a-a593b15a0d7f"/>
+    <listType typeId="147b49ca-e8de-4911-aaac-6592473bda20" valueTypeId="0e2d86cd-1c61-4cf7-954f-b12c5ec37381"/>
+    <managerType typeId="1c2f9bc1-aa44-447d-8b88-38429a15b595" valueTypeId="423578a8-736a-403e-9694-7f1640d320c7"/>
+    <recordSetType typeId="85d2de4a-0e79-42a1-9120-33fd45d464d0" valueTypeId="37fe71b3-79ae-494a-93d0-fc169167e0ee"/>
+    <recordKeyType typeId="c16ebc1c-0ffa-4f29-b45a-66e196fab64b" valueTypeId="39b898ad-348b-401c-9043-c0b15a303994"/>
+    <recordType typeId="baceebff-0c58-4f1e-9f2c-b9bcb355be2e" valueTypeId="0b455a03-7a8f-449d-9f81-e5564bc9125f"/>
+  </producedTypes>
+  <name>ДвиженияЖивотных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения животных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="764c9b32-b701-40f8-b09b-e455fc5304b8">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="a40e7dcb-632c-4d75-b76d-0eaee43db7ef">
+    <name>Акт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипАкта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

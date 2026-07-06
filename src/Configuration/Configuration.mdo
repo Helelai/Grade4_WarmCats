@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c59a6d2d-da1d-4d34-8cf9-c3212f25fa22">
+  <name>КотокафеТеплыеКоты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Котокафе теплые коты</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2e977a83-99af-44bc-a15e-0cd9fd860f92"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fc664acb-714d-4dc9-9ee3-0ce779931eb4"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c473ad38-d76e-48d6-a174-4298dd28f7a5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1a6f14aa-457c-4c86-af4e-ae7e88fea0ee"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7e831a22-50d8-46dc-9b7a-25682fe0c96c"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="84b233db-fa2a-4225-9375-d3fc3c5e5619"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="2f513d9c-997f-4ab5-96c8-798544e237f1"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <mainSectionPicture/>
+  <defaultStyle>Style.Стиль1</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="7cbe4f92-a6cb-43ff-9094-bf4d67b7161c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажа</subsystems>
+  <subsystems>Subsystem.Учет</subsystems>
+  <subsystems>Subsystem.Отчет</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <styleItems>StyleItem.Шрифт</styleItems>
+  <styles>Style.Стиль1</styles>
+  <commonPictures>CommonPicture.ЗаглушкаКотик</commonPictures>
+  <commonPictures>CommonPicture.ЗаглушкаТовар</commonPictures>
+  <commonPictures>CommonPicture.Логотип</commonPictures>
+  <commonPictures>CommonPicture.АдминистрированиеИконка</commonPictures>
+  <commonPictures>CommonPicture.ПродажаИконка</commonPictures>
+  <commonPictures>CommonPicture.ОтчетИконка</commonPictures>
+  <commonPictures>CommonPicture.УчетИконка</commonPictures>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Сотрудник</roles>
+  <commonModules>CommonModule.ОбщийМодуль</commonModules>
+  <constants>Constant.Организация</constants>
+  <constants>Constant.ИННОрганизации</constants>
+  <constants>Constant.ДиректорОрганизации</constants>
+  <commonForms>CommonForm.Компания</commonForms>
+  <commonForms>CommonForm.Главное</commonForms>
+  <catalogs>Catalog.Должность</catalogs>
+  <catalogs>Catalog.Сотрудник</catalogs>
+  <catalogs>Catalog.Цена</catalogs>
+  <catalogs>Catalog.Товар</catalogs>
+  <catalogs>Catalog.КатегорияТовара</catalogs>
+  <catalogs>Catalog.Котики</catalogs>
+  <documents>Document.Продажа</documents>
+  <documents>Document.Поставка</documents>
+  <documents>Document.Посещение</documents>
+  <documents>Document.АктПередачиЖивотного</documents>
+  <documents>Document.АктПолученияЖивотного</documents>
+  <enums>Enum.ТипАкта</enums>
+  <enums>Enum.СтатусНахождения</enums>
+  <reports>Report.ОтчетПоДоходамИРасходам</reports>
+  <reports>Report.ОтчетПоДвижениюТоваров</reports>
+  <reports>Report.ОтчетПоДвижениюЖивотных</reports>
+  <accumulationRegisters>AccumulationRegister.ДоходыИРасходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвиженияЖивотных</accumulationRegisters>
+</mdclass:Configuration>

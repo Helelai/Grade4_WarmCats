@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="035e8c04-31a6-47ec-8079-1edefd020bb5">
+  <producedTypes>
+    <objectType typeId="7587bd46-4dcd-4498-947c-15d8a2563cd4" valueTypeId="dbe5420d-c378-4ad4-8637-eedc96482f03"/>
+    <refType typeId="98f9be16-bc77-4cb1-8c44-67fa07355ada" valueTypeId="54c8f204-1e60-4fbe-89f4-3650659cb6d7"/>
+    <selectionType typeId="e000873a-acc0-476e-b6a8-8e5b30e1435f" valueTypeId="962c95ff-efcb-4725-9ccf-4542deb344f5"/>
+    <listType typeId="240ff5ce-661a-4748-bf57-7a9cd0cfeb10" valueTypeId="bc4b7ab2-0f75-4fd8-b746-118ff58910f7"/>
+    <managerType typeId="43bb940a-a2a5-4473-a6fc-3796fc4233b7" valueTypeId="d66b5c16-3cea-4e7a-afd2-1979419dc82c"/>
+  </producedTypes>
+  <name>АктПередачиЖивотного</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт передачи животного</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АктПередачиЖивотного.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.АктПередачиЖивотного.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДвиженияЖивотных</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9d6ddb9e-dc72-4a18-bf4f-14deff959d1e">
+    <name>ТипАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип акта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипАкта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="496b47d6-b04f-44b7-a4c5-ed6158bd11a6">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудник</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a1225b53-fb31-4969-9691-565a1def764f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="67f04428-6a49-4d84-8b4b-7990a286925a">
+    <producedTypes>
+      <objectType typeId="ef992440-94c1-45f4-a2fb-fca9e33a3642" valueTypeId="4097a65a-d0f7-4589-a290-9ebdcf8c5b61"/>
+      <rowType typeId="3cd5d0aa-aff9-4162-88c8-49b09093db70" valueTypeId="ee7681b6-7a6d-45ff-8f36-1c4b69b2e94c"/>
+    </producedTypes>
+    <name>СоставАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав акта</value>
+    </synonym>
+    <attributes uuid="ec899025-b1dd-421c-b17d-2f3faf26c3a4">
+      <name>Котик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Котик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Котики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dda0ca64-3e0d-45bb-adb0-0b38c6bbe7d3">
+  <producedTypes>
+    <refType typeId="6e865c86-03ed-45c9-947f-ccd5821d94bd" valueTypeId="65edba36-a0ac-47df-b32e-7b531fde6a9e"/>
+    <listType typeId="2e8f3901-3f3b-49c8-9a90-7cd83b15d146" valueTypeId="df0eb4dc-6076-42f5-a043-e6dadc2cdc7f"/>
+    <managerType typeId="cf583169-3f1c-4fc0-ba5a-3fc1a4dbab1a" valueTypeId="28c884a8-c3aa-4516-833d-7d12626c6050"/>
+  </producedTypes>
+  <name>СтатусНахождения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус нахождения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e6ea3c05-19d6-4460-b559-9b50267a1c15">
+    <name>ВКотокафе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В котокафе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="663a62c2-cf5c-4d82-9719-2e7fc46edddd">
+    <name>Пристроен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пристроен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

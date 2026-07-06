@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d99e142b-8d2f-462e-a7c7-02201f1f23f4">
+  <producedTypes>
+    <refType typeId="32dcb77b-e380-41af-8932-7a9c18273ac7" valueTypeId="f158de7f-089e-49b7-9957-2ae37d861ec5"/>
+    <listType typeId="ae29ac1c-ddd8-4ad4-96d1-15e3e5bca55f" valueTypeId="8e349b9d-4adb-4ca1-8772-761dc441af83"/>
+    <managerType typeId="2f959e67-ba45-419a-85de-7a007d1c3b48" valueTypeId="91ac9bf3-e76f-4014-8931-f70b42a68901"/>
+  </producedTypes>
+  <name>ТипАкта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип акта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="51efdd34-e713-428e-8b3e-565bbb9204f9">
+    <name>АктПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт передачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e1b12e1-26da-407e-a6d5-6b13bb87dc89">
+    <name>АктПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт получения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41c36965-ca8a-4c5e-a7ea-6bad1c438b3c">
+  <name>ЗаглушкаКотик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заглушка котик</value>
+  </synonym>
+</mdclass:CommonPicture>

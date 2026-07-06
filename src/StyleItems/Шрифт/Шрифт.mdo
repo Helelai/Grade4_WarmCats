@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac304d93-6f20-4e38-b14c-b62e897806f7">
+  <name>Шрифт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шрифт</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontDef">
+      <faceName>Comic Sans MS</faceName>
+      <height>14.0</height>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01017fb6-4cfe-4d9f-964f-0676a14b7337">
+  <producedTypes>
+    <objectType typeId="0f2f6727-bc87-4242-a13a-64c2e6294b2b" valueTypeId="be19c3a3-f4a8-413d-9d40-3928a1c411d1"/>
+    <managerType typeId="dc950faa-9535-4724-83bb-85d97abab97e" valueTypeId="4ba89ed6-37e1-4442-8b6b-cfc67b958fbb"/>
+  </producedTypes>
+  <name>ОтчетПоДвижениюЖивотных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по движению животных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоДвижениюЖивотных.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4577fda5-deda-4df5-90ae-ee9695996f90">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d4a87af-1569-48ee-bbd5-fee5c7ed3fca">
+  <producedTypes>
+    <selectionType typeId="2e50d2bc-0a42-4ad7-886c-a23a61b937d7" valueTypeId="61de65a8-6185-4a61-8a98-d81123d4739e"/>
+    <listType typeId="d200ad3a-a7ae-4bfb-bf00-1ea997be0a75" valueTypeId="ead21ee7-4df6-4bd4-bb44-cb90310190b6"/>
+    <managerType typeId="a5d05892-083d-4d18-a019-9ce5fb719bac" valueTypeId="8abdf286-7d45-4f09-a905-3ff6703718cd"/>
+    <recordSetType typeId="4de8c446-ed9e-48bc-8661-d2d6fa93750f" valueTypeId="1611e135-d98b-4f83-b589-8eb911ca284f"/>
+    <recordKeyType typeId="728dd258-bffb-4cb6-a048-a342ae80f058" valueTypeId="3977c314-1175-4be6-a6f5-df0204b4f054"/>
+    <recordType typeId="69e2c5e7-f68d-4a3c-8d3e-9fe15896a052" valueTypeId="6dfff3df-c29b-403d-b49a-a3ab594b751c"/>
+  </producedTypes>
+  <name>ДоходыИРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы и расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.ДоходыИРасходы.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="15bb35cf-6557-413e-8263-f120fa20d1a1">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="84411d9a-a30f-4f12-953b-83a4cdf67516">
+    <name>Движение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="05b1a81c-b94c-406b-ad1c-a61f9b9191af">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

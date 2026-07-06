@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>ActivityColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>191</red>
+      <green>224</green>
+      <blue>177</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AccentColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>191</red>
+      <green>224</green>
+      <blue>177</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>204</green>
+      <blue>246</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AuxiliaryNavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>191</red>
+      <green>224</green>
+      <blue>177</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ImportantColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>204</green>
+      <blue>246</blue>
+    </color>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>StyleItem.Шрифт</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.Шрифт</font>
+      <height>14.0</height>
+    </font>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FirstBrand</name>
+    <color xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>204</green>
+      <blue>246</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>SecondBrand</name>
+    <color xsi:type="core:ColorDef">
+      <red>191</red>
+      <green>224</green>
+      <blue>177</blue>
+    </color>
+  </items>
+</style:Style>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d51d42b0-09e6-4c77-a7c3-c66f284f2752">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.АдминистрированиеИконка</picture>
+  </picture>
+  <content>Catalog.Сотрудник</content>
+  <content>Catalog.Должность</content>
+  <content>Catalog.Цена</content>
+  <content>Catalog.Товар</content>
+  <content>Catalog.КатегорияТовара</content>
+  <content>Catalog.Котики</content>
+  <content>Enum.ТипАкта</content>
+  <content>AccumulationRegister.ДоходыИРасходы</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>CommonForm.Компания</content>
+  <content>Style.Стиль1</content>
+</mdclass:Subsystem>

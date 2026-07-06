@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96f94fd0-b37a-4e16-a454-5a39a71ab4c9">
+  <producedTypes>
+    <objectType typeId="9ac333f5-2493-436b-aa5e-4174e386f445" valueTypeId="ec46f48c-a77f-4102-89c3-eece223b7a89"/>
+    <refType typeId="fee29654-e4a3-4463-8460-4a1d98af52ba" valueTypeId="7c1e27b2-858e-44af-9fa4-e4ff81eee38d"/>
+    <selectionType typeId="f7f60125-c4e8-478e-88ef-919d8a6e7e7d" valueTypeId="416430ef-e4cd-48ef-9bf6-2e295662f1a2"/>
+    <listType typeId="c1f4c4c2-6b65-4cad-9213-148418af6d48" valueTypeId="1f911828-ae0e-444d-8c09-5b4c5589f140"/>
+    <managerType typeId="bb059639-89d3-42ff-b6dc-7ee9743e3092" valueTypeId="302df5a6-a484-4d1d-aab4-6faf5f2539d4"/>
+  </producedTypes>
+  <name>АктПолученияЖивотного</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт получения животного</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.АктПолученияЖивотного.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.АктПолученияЖивотного.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДвиженияЖивотных</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f17a8c9a-4de9-4177-9493-12eb10de514b">
+    <name>ТипАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип акта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипАкта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="783cb601-40c8-47c5-85c7-66167afbac7b">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудник</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4891faa8-8c88-44ce-8c6b-80beb9bc6598">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="525b2370-8186-4cb9-86b8-458c1993b68f">
+    <producedTypes>
+      <objectType typeId="baa524f8-fd2b-4f22-ac57-b1f3ff88cc7d" valueTypeId="9d410c28-9cd7-4c40-a9f8-8b7f64356129"/>
+      <rowType typeId="b9dc9a30-b098-4cdc-b2a6-7dc32a53a7ed" valueTypeId="892fa3c4-3456-45b8-9a67-014dd4988391"/>
+    </producedTypes>
+    <name>СоставАкта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав акта</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="33d46f9c-130b-49c5-a2ae-1a7b521f903d">
+      <name>Котик</name>
+      <synonym>
+        <key>ru</key>
+        <value>Котик</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Котики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
